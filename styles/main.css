@@ -1,16 +1,23 @@
-html {
-  font-family: "Roboto", sans-serif;
+:root{
+    --title-color: #322153;
 }
 
-/* BOX MODEL
-Modelo de Caixa
-Toda caixa tem
-largyra, altura, espaçamentos, preenchimentos,
-bordas, cor, fundo, maneira que é vista pelo html (display), alinhamentos
-*/
+a {
+    text-decoration: none;
+}
 
 body{
     background: #f0f0f5;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+}
+
+html {
+  font-family: "Roboto", sans-serif;
 }
 
 #page-home{
@@ -25,10 +32,31 @@ body{
   margin 0 auto;
 }
 
-header {
+#page-home header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 48px;
 }
 
+#page-home header a {
+    display: flex;
+    color: var(--title-color);
+    font-weight: 700;
+}
 
+#page-home header a span{
+    display: flex;
+    background-image: url('../assets/icons/log-in.svg');
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
+}
+
+#page-home main {
+    max-width: 660px;
+}
+
+#page-home main h1 {
+    font-size: 54px;
+}
