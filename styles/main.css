@@ -9,8 +9,22 @@ largyra, altura, espaçamentos, preenchimentos,
 bordas, cor, fundo, maneira que é vista pelo html (display), alinhamentos
 */
 
+#page-home{
+    height: 100vh;
+    background: url('../assets/icons/home-background.svg') no-repeat;
+    background-position: 35vw bottom;
+}
+
+#page-home .content {
+  width: 90%;
+  max-width: 1100px;
+  margin 0 auto;
+}
+
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
+
