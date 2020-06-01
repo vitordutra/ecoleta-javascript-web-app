@@ -90,6 +90,30 @@ html {
     background-color: #2fb86e;
 }
 
+#page-home main a span {
+    width: 72px;
+    height: 72px;
+    background-color: rgba(0,0,0,0.08);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page-home main a span:after {
+    content: "";
+    background-image: url('../assets/icons/search.svg');
+    width:20px;
+    height:20px;
+}
+
+#page-home main a strong {
+    flex: 1;
+    color:white;
+    text-align: center;
+}
+
 #page-home main h1 {
     font-size: 54px;
 }
