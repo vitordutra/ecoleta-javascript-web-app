@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 :root{
     --title-color: #322153;
 }
@@ -30,6 +35,9 @@ html {
   width: 90%;
   max-width: 1100px;
   margin 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 #page-home header {
@@ -55,6 +63,10 @@ html {
 
 #page-home main {
     max-width: 660px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #page-home main h1 {
