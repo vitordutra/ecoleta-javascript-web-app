@@ -74,9 +74,20 @@ html {
 #page-home main a {
     width: 100%;
     max-width: 360px;
-    background: var(--primary-color);
+    background-color: var(--primary-color);
     height: 72px;
     border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+
+    margin-top: 40px;
+
+    transition: 400ms;
+}
+
+#page-home main a:hover {
+    background-color: #2fb86e;
 }
 
 #page-home main h1 {
