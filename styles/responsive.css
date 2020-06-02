@@ -1,6 +1,7 @@
 @media (max-width: 900px) {
   #page-home {
     background-position-x: 70vw;
+    padding-right: 100px;
   }
 
   #page-home .content {
@@ -28,8 +29,8 @@
   }
 }
 
-@media (max-height: 760px) {
+@media (max-height: 860px) {
   #page-home {
-    background-position-y: 100px;
+    background-position-y: 200px;
   }
 }
