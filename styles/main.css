@@ -1,26 +1,31 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-:root{
-    --title-color: #322153;
-    --primary-color: #34cb79;
+:root {
+  --title-color: #322153;
+  --primary-color: #34cb79;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-body{
-    background: #f0f0f5;
-    -webkit-font-smoothing: antialiased;
+body {
+  background: #f0f0f5;
+  -webkit-font-smoothing: antialiased;
 }
 
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Ubuntu', sans-serif;
-    color: var(--title-color);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Ubuntu", sans-serif;
+  color: var(--title-color);
 }
 
 html {

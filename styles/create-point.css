@@ -1,7 +1,8 @@
 #page-create-point {
   width: 90%;
   max-width: 1100px;
-
+  /* Alinhamento de caixa (pelo lado de fora da caixa)*/
+  /* Lado de Dentro: display:flex*/
   margin: 0 auto;
 }
 
@@ -30,4 +31,12 @@
 
   width: 20px;
   height: 24px;
+}
+
+form {
+  background-color: white;
+  margin: 80px auto;
+  padding: 64px;
+  border-radius: 8px;
+  max-width: 730px;
 }
