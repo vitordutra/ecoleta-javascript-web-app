@@ -19,7 +19,7 @@ body{
 
 
 h1, h2, h3, h4, h5, h6 {
-font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: var(--title-color);
 }
 
@@ -40,6 +40,7 @@ html {
   height: 100%;
   display: flex;
   flex-direction: column;
+  padding: 50px;
 }
 
 #page-home header {
@@ -64,7 +65,7 @@ html {
 }
 
 #page-home main {
-    max-width: 660px;
+    max-width: 560px;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -96,7 +97,7 @@ html {
     background-color: rgba(0,0,0,0.08);
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -104,8 +105,8 @@ html {
 #page-home main a span:after {
     content: "";
     background-image: url('../assets/icons/search.svg');
-    width:20px;
-    height:20px;
+    width: 20px;
+    height: 20px;
 }
 
 #page-home main a strong {
@@ -137,7 +138,7 @@ html {
 
     #page-home header a {
         position: absolute;
-        bottom: 48px;
+        bottom: 18px;
 
         left: 50%;
 
