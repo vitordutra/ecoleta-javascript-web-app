@@ -22,14 +22,14 @@ function getCities(event) {
 
   const url = `https://servicodados.ibge.gov.br/api/v1/localidades/estados/${ufID}/municipios`;
 
+  citySelect.innerHTML = "<option value>Selecione a cidade</option>";
   citySelect.disabled = true;
-  citySelect.innerHTML = "";
 
   fetch(url)
     .then((response) => response.json())
     .then((cities) => {
       for (const city of cities) {
-        citySelect.innerHTML += `<option value="${city.id}">${city.nome}</option>`;
+        citySelect.innerHTML += `<option value="${city.nome}">${city.nome}</option>`;
       }
       citySelect.disabled = false;
     });
