@@ -127,3 +127,24 @@ form button {
 form button:hover {
   background-color: #2fb86e;
 }
+
+.items-grid {
+  /* display flex -> unidimensional
+  -> um do lado do outro ou um abaixo do outro
+  display grid -> multidimensional
+  */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* Separação entre os elementos */
+  gap: 16px;
+}
+
+.items-grid li {
+  background-color: #f5f5f5;
+  list-style: none;
+
+  border: 2px solid #f5f5f5;
+
+  border-radius: 8px;
+  height: 180px;
+}
