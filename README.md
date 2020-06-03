@@ -1,3 +1,3 @@
 # nlw-starter
 
-# Finish Lecture#2
+# Finish Lecture #2

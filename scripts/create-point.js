@@ -22,6 +22,9 @@ function getCities(event) {
 
   const url = `https://servicodados.ibge.gov.br/api/v1/localidades/estados/${ufID}/municipios`;
 
+  citySelect.disabled = true;
+  citySelect.innerHTML = "";
+
   fetch(url)
     .then((response) => response.json())
     .then((cities) => {
