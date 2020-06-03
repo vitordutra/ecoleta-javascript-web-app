@@ -162,6 +162,10 @@ form button:hover {
   cursor: pointer;
 }
 
+.items-grid li:hover {
+  border: 2px solid #34cb79;
+}
+
 /*Nome dos itens. Ex: Lâmpadas etc*/
 .items-grid li span {
   margin-top: 12px;
@@ -173,4 +177,9 @@ form button:hover {
   align-items: center;
 
   color: var(--title-color);
+}
+
+.items-grid li.selected {
+  background-color: #e1faec;
+  border: 2px solid #34cb79;
 }
