@@ -62,6 +62,11 @@
     background-color: #2fb86e;
 }
 
+#page-home main a:active {
+    background-color: #238f55;
+    transition: 400ms;
+}
+
 #page-home main a span {
     width: 72px;
     height: 72px;
