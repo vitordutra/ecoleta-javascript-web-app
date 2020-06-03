@@ -147,4 +147,30 @@ form button:hover {
 
   border-radius: 8px;
   height: 180px;
+
+  padding: 32px 24px 16px;
+
+  /* Alinhar os elementos internos */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  text-align: center;
+
+  cursor: pointer;
+}
+
+/*Nome dos itens. Ex: Lâmpadas etc*/
+.items-grid li span {
+  margin-top: 12px;
+
+  /*Computou o tamanho da imagem. O que sobrou vai pro texto */
+  flex: 1;
+  display: flex;
+  text-align: center;
+  align-items: center;
+
+  color: var(--title-color);
 }
