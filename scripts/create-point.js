@@ -48,5 +48,8 @@ for (const item of itemsToCollect) {
 }
 
 function handleSelectedItem(event) {
-  console.log(event.target);
+  const itemLi = event.target;
+  // Add or remove class with JavaScript
+  const itemID = itemLi.dataset.id;
+  console.log();
 }
