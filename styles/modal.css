@@ -92,3 +92,16 @@
   background-color: #179b45;
   transition: 400ms;
 }
+
+@media (max-width: 700px) {
+  #modal .content {
+    margin: 100px;
+  }
+
+  #modal .header h1 {
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 4vh;
+    text-align: center;
+  }
+}

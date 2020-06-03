@@ -1,7 +1,7 @@
 @media (max-width: 900px) {
   #page-home {
     background-position-x: 70vw;
-    padding-right: 100px;
+    padding-left: 10vw;
   }
 
   #page-home .content {
