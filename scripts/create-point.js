@@ -47,9 +47,25 @@ for (const item of itemsToCollect) {
   item.addEventListener("click", handleSelectedItem);
 }
 
+let selectedItems = [];
+
 function handleSelectedItem(event) {
   const itemLi = event.target;
   // Add or remove class with JavaScript -> classList -> add, remove, toggle
-  const itemID = itemLi.classList.toggle("selected");
-  console.log();
+  itemLi.classList.toggle("selected");
+
+  const itemID = itemLi.dataset.id;
+
+  // Verificar se existem itens selecionados. Se sim
+  // Pegar os itens selecionados
+  const alreadySelected = selectedItems.findIndex((item) => {
+    const itemFound = item === itemID; // Isso será true ou false
+    return itemFound;
+  });
+
+  // Se já estiver selecionado, tirar da seleção
+
+  // Se não estiver adicionado, adicionar à seleção
+
+  // Atualizar os campos escondidos com os itens selecionados
 }

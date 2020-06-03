@@ -164,6 +164,7 @@ form button:hover {
 
 .items-grid li:hover {
   border: 2px solid #34cb79;
+  transition: 400ms;
 }
 
 /*Nome dos itens. Ex: Lâmpadas etc*/
