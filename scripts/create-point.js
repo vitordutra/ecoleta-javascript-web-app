@@ -49,7 +49,7 @@ for (const item of itemsToCollect) {
 
 function handleSelectedItem(event) {
   const itemLi = event.target;
-  // Add or remove class with JavaScript
-  const itemID = itemLi.dataset.id;
+  // Add or remove class with JavaScript -> classList -> add, remove, toggle
+  const itemID = itemLi.classList.toggle("selected");
   console.log();
 }
