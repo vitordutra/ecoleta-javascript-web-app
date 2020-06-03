@@ -1,8 +1,8 @@
 function populateUFs() {
   const ufSelect = document.querySelector("select[name=uf]");
   fetch("https://servicodados.ibge.gov.br/api/v1/localidades/estados")
-    .then((response) => response.json())
-    .then((states) => {
+    .then(response => response.json())
+    .then(states => {
       for (const state of states) {
         ufSelect.innerHTML += `<option value="${state.id}">${state.nome}</option>`;
       }
@@ -26,8 +26,8 @@ function getCities(event) {
   citySelect.disabled = true;
 
   fetch(url)
-    .then((response) => response.json())
-    .then((cities) => {
+    .then(response => response.json())
+    .then(cities => {
       for (const city of cities) {
         citySelect.innerHTML += `<option value="${city.nome}">${city.nome}</option>`;
       }
@@ -47,6 +47,8 @@ for (const item of itemsToCollect) {
   item.addEventListener("click", handleSelectedItem);
 }
 
+const collectedItems = document.querySelector("input[name=items]");
+
 let selectedItems = [];
 
 function handleSelectedItem(event) {
@@ -58,14 +60,26 @@ function handleSelectedItem(event) {
 
   // Verificar se existem itens selecionados. Se sim
   // Pegar os itens selecionados
-  const alreadySelected = selectedItems.findIndex((item) => {
-    const itemFound = item === itemID; // Isso será true ou false
+  const alreadySelected = selectedItems.findIndex(item => {
+    const itemFound = item == itemID; // Isso será true ou false
     return itemFound;
   });
 
-  // Se já estiver selecionado, tirar da seleção
+  // Se já estiver selecionado
+  if (alreadySelected >= 0) {
+    // Tirar da seleção
+    const filteredItems = selectedItems.filter(item => {
+      const itemIsDifferent = item != itemID;
+      return itemIsDifferent;
+    });
 
-  // Se não estiver adicionado, adicionar à seleção
-
+    selectedItems = filteredItems;
+  }
+  // Se não estiver adicionado,
+  else {
+    //adicionar à seleção
+    selectedItems.push(itemID);
+  }
   // Atualizar os campos escondidos com os itens selecionados
+  collectedItems.value = selectedItems;
 }
