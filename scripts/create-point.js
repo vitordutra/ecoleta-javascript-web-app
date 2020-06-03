@@ -12,9 +12,13 @@ function populateUFs() {
 populateUFs();
 
 function getCities(event) {
-  const citySelect = document.querySelector("select[name=city]");
+  const citySelect = document.querySelector("[name=city]");
+  const stateInput = document.querySelector("[name=state]");
 
   const ufID = event.target.value;
+
+  const indexOfSelectedState = event.target.selectedIndex;
+  stateInput.value = event.target.options[indexOfSelectedState].text;
 
   const url = `https://servicodados.ibge.gov.br/api/v1/localidades/estados/${ufID}/municipios`;
 
