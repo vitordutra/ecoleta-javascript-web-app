@@ -1,0 +1,23 @@
+{
+  "name": "nlw-starter",
+  "version": "1.0.0",
+  "description": "Ecoleta Web Version - By Rocketseat",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitordutra/nlw-starter.git"
+  },
+  "keywords": [],
+  "author": "Vitor Dutra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitordutra/nlw-starter/issues"
+  },
+  "homepage": "https://github.com/vitordutra/nlw-starter#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
