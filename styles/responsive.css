@@ -21,6 +21,34 @@
   #page-home main {
     align-items: center;
   }
+
+  #page-search-results .cards {
+    grid-template-columns: 1fr;
+  }
+
+  #page-search-results img {
+    height: 250px;
+  }
+
+  #page-search-results header img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 400px) {
+  #page-search-results header {
+    display: grid;
+    grid-template-columns: 2.5fr 1.75fr;
+    grid-template-rows: 100px;
+  }
+  #page-search-results header a {
+    align-items: center;
+    text-align: center;
+  }
+  #page-search-results header img {
+    align-items: center;
+    width: 80%;
+  }
 }
 
 @media (min-width: 1700px) {
