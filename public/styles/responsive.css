@@ -33,6 +33,14 @@
   #page-search-results header img {
     width: 60%;
   }
+
+  #page-create-point .field-group {
+    flex-direction: column;
+  }
+
+  #page-create-point .field-group .field + .field {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 400px) {
