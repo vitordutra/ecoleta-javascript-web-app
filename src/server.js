@@ -22,5 +22,11 @@ server.get("/", (req, res) => {
 server.get("/create-point", (req, res) => {
   return res.render("create-point.html");
 });
+
+// Search Results
+server.get("/search", (req, res) => {
+  return res.render("search-results.html");
+});
+
 // Ligar o servidor
 server.listen(3000);
