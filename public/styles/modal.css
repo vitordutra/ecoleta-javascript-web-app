@@ -20,14 +20,14 @@
 
 #modal .content {
   color: white;
-
+  align-items: center;
   width: 420px;
+  justify-content: center;
 }
 
 #modal .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 300px auto;
 }
 
 #modal .header a {
@@ -38,15 +38,17 @@
   display: flex;
 
   font-size: 0.01px;
+  align-items: center;
+  justify-content: center;
 }
 
 #modal .header h1 {
   color: white;
-
   font-size: 36px;
   line-height: 42px;
-
   margin-bottom: 48px;
+  align-items: center;
+  margin-bottom: 24px;
 }
 
 #modal form label {

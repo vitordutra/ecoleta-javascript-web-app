@@ -1,12 +1,12 @@
 @media (max-width: 900px) {
   #page-home {
     background-position-x: 70vw;
-    padding-left: 10vw;
   }
 
   #page-home .content {
     align-items: center;
     text-align: center;
+    margin: auto;
   }
 
   #page-home header a {
