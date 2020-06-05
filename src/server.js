@@ -14,7 +14,7 @@ nunjucks.configure("src/views", {
 // Configurar os caminhos da minha aplicação
 // Página Inicial
 server.get("/", (req, res) => {
-  return res.render("index.html", { title: "Um título" });
+  return res.render("index.html", { title: "Ecoleta" });
 });
 
 // Preciso criar as outras rotas
