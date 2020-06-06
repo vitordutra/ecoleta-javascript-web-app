@@ -51,12 +51,11 @@ db.serialize(() => {
     console.log("Cadastrado com Sucesso");
     console.log(this);
   }
-
-  //db.run(query, values, afterInsertData);
+  db.run(query, values, afterInsertData);
 
   // Consultar os dados na tabela
 
-  db.all(`SELECT name FROM places;`, function (err, rows) {
+  db.all(`SELECT * FROM places;`, function (err, rows) {
     if (err) {
       console.log(err);
     }
@@ -64,11 +63,12 @@ db.serialize(() => {
     console.log(rows);
   });
 
+
   // Deletar um dado na tabela
-  db.run(`DELETE FROM places WHERE id = ?`, [1], function (err) {
-    if (err) {
-      console.log(err);
-    }
-    console.log("Registro deletado com sucesso");
-  });
-});
+//   db.run(`DELETE FROM places WHERE id = ?`, [1], function (err) {
+//     if (err) {
+//       console.log(err);
+//     }
+//     console.log("Registro deletado com sucesso");
+//   });
+// });
