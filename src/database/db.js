@@ -67,10 +67,10 @@ db.serialize(() => {
     // });
 
   // Deletar um dado na tabela
-//   db.run(`DELETE FROM places WHERE id = ?`, [3], function (err) {
-//     if (err) {
-//       console.log(err);
-//     }
-//     console.log("Registro deletado com sucesso");
-//   });
+  // db.run(`DELETE FROM places WHERE name = ?`, ['A'], function (err) {
+  //   if (err) {
+  //     console.log(err);
+  //   }
+  //   console.log("Registro deletado com sucesso");
+  // });
 });
