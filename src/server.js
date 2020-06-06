@@ -23,6 +23,8 @@ server.get("/", (req, res) => {
 // Preciso criar as outras rotas
 // Create-point
 server.get("/create-point", (req, res) => {
+  // req.query -> Query strings da nossa url
+  console.log(req.query);
   return res.render("create-point.html");
 });
 
