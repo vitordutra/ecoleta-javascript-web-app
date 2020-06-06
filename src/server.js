@@ -35,7 +35,11 @@ server.get("/search", (req, res) => {
       console.log(err);
     }
     // Mostrar a página HTML com os dados do Banco de Dados
-    return res.render("search-results.html", { places: rows });
+
+    const total = rows.length;
+
+    //                                    ou {places: rows, total}
+    return res.render("search-results.html", { places: rows, total: total });
   });
 });
 
