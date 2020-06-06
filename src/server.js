@@ -28,7 +28,15 @@ server.get("/create-point", (req, res) => {
 
 // Search Results
 server.get("/search", (req, res) => {
-  return res.render("search-results.html");
+  // Pegar os dados do banco de dados
+
+  db.all(`SELECT * FROM places;`, function (err, rows) {
+    if (err) {
+      console.log(err);
+    }
+    // Mostrar a página HTML com os dados do Banco de Dados
+    return res.render("search-results.html", { places: rows });
+  });
 });
 
 // Ligar o servidor
