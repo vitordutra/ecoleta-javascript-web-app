@@ -28,6 +28,10 @@ server.get("/create-point", (req, res) => {
   return res.render("create-point.html");
 });
 
+server.post("/savepoint", (req, res) => {
+  return res.send("ok");
+});
+
 // Search Results
 server.get("/search", (req, res) => {
   // Pegar os dados do banco de dados
