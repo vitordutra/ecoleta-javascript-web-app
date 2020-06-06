@@ -22,8 +22,8 @@ db.serialize(() => {
 
     `);
   // Inserir dados na tabela
-  db.run(`
-        INSERT INTO places (image,
+  const query = `
+        INSERT INTO places (
             image,
             name,
             address,
@@ -32,8 +32,37 @@ db.serialize(() => {
             city,
             items
             ) VALUES (?,?,?,?,?,?,?);
-    `);
+    `;
+
+  const values = [
+    "https://images.unsplash.com/photo-1481761289552-381112059e05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1461&q=80",
+    "Colectoria",
+    "Guilherme Gemballa, Jardim América",
+    "Número 260",
+    "Santa Catarina",
+    "Rio do Sul",
+    "Resíduos Eletrônicos, Lâmpadas",
+  ];
+
+  function afterInsertData(err) {
+    if (err) {
+      return console.log(err);
+    }
+    console.log("Cadastrado com Sucesso");
+    console.log(this);
+  }
+
+  //db.run(query, values, afterInsertData);
+
   // Consultar os dados na tabela
+
+  db.all(`SELECT * FROM places;`, function (err, rows) {
+    if (err) {
+      console.log(err);
+    }
+    console.log("Aqui estão seus registros: ");
+    console.log(rows);
+  });
 
   // Deletar um dado na tabela
 });
