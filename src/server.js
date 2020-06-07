@@ -1,3 +1,4 @@
+const PORT = process.env.PORT || 3000;
 const express = require("express");
 const server = express();
 
@@ -99,4 +100,4 @@ server.get("/search", (req, res) => {
 });
 
 // Ligar o servidor
-server.listen(3000);
+server.listen(PORT);
