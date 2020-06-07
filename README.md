@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=1200px height=450px src="https://ik.imagekit.io/nfbjje2exl/ezgif.com-video-to-gif_0hgdnwUOi.gif" alt="Project logo"></a>
+ <img width=512px height=490px src="https://ik.imagekit.io/nfbjje2exl/ezgif.com-video-to-gif_0hgdnwUOi.gif" alt="Project logo"></a>
 </p>
 
 <h3 align="center"><img src="public/assets/icons/logo.svg" alt="Logo Ecoleta"></h3>
