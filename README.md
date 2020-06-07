@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=512px height=490px src="https://ik.imagekit.io/nfbjje2exl/ezgif.com-video-to-gif_0hgdnwUOi.gif" alt="Project logo"></a>
+ <img width=512px height=390px src="https://ik.imagekit.io/nfbjje2exl/ezgif.com-video-to-gif_0hgdnwUOi.gif" alt="Project logo"></a>
 </p>
 
 <h3 align="center"><img src="public/assets/icons/logo.svg" alt="Logo Ecoleta"></h3>
@@ -13,7 +13,7 @@
 
 ---
 
-<p align="center"> Ecoleta - We help people find recycling facilities on easy mode
+<p align="center"> Ecoleta - We help people find recycling facilities on <b>easy mode</b>
     <br>
     App Developed during Next Level Week #1 - Starter Path by <a href="https://rocketseat.com.br/">Rocketseat</a>
     <br>
