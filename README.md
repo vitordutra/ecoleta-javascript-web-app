@@ -30,7 +30,7 @@
 ## 🧐 About <a name = "about"></a>
 [Ecoleta](https://ecoleta-nlw-starter.herokuapp.com/) is a fictional startup to find recycle colletion points on your city.
 
-The Full MVC system was developed between June 1st and 8th 2020 as an Project Based Approach to teach HTML, CSS, Front-end JavaScript and [NodeJS](https://nodejs.org/en/) (with [Express Framework](https://expressjs.com/) and [Nunjucks](https://www.npmjs.com/package/nunjucks)) to aspiring web developers.
+The Full MVC system was developed between June 1st and 8nd 2020 as an Project Based Approach to teach HTML, CSS, Front-end JavaScript and [NodeJS](https://nodejs.org/en/) (with [Express Framework](https://expressjs.com/) and [Nunjucks](https://www.npmjs.com/package/nunjucks)) to aspiring web developers.
 
 The front-end consists of 3 pages:
 - Home-page - Startup Presentation
