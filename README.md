@@ -35,7 +35,7 @@ The Full MVC system was developed between June 1st and 8th 2020 as an Project Ba
 The front-end consists of 3 pages:
 - Home-page - Startup Presentation
 - Collection Point Register - To insert the collection point into the database for user retrieval
-- Collection Point Search - Search By Item
+- Collection Point Search - Search By City
 
 The back-end:
 -  Server is made with express and nunjucks template engine
