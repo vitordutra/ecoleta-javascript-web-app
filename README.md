@@ -87,5 +87,6 @@ $ npm start
 ---
 
 <div align="center">
-  Made with 🧠 by Vitor Dutra
+  Made with 🧠 by Vitor Dutra <br>
+  <a href="https://www.linkedin.com/in/vitor-dutra/">Get in touch!</a>
 </div>
