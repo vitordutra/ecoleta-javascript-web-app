@@ -79,11 +79,13 @@ $ npm start
 - [ ] Fix mobile CSS on small screens
 - [ ] Change default search to show all collection points
 
-## ✍️ Authors <a name = "authors"></a>
-
-- [@vitordutra](https://github.com/vitordutra) - Made the repo and fixed bugs!
-
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
 - [@maykbrito](https://github.com/maykbrito) - For the wonderful project and teaching practice
 - [@lukemorales](https://github.com/lukemorales/) - For the inspiring READMEs!
+
+---
+
+<div align="center">
+  Made with 🧠 by Vitor Dutra
+</div>
