@@ -17,8 +17,6 @@ body::after {
 #page-search-results {
   width: 90%;
   max-width: 1100px;
-  /* Alinhamento de caixa (pelo lado de fora da caixa)*/
-  /* Lado de Dentro: display:flex*/
   margin: 0 auto;
 }
 
