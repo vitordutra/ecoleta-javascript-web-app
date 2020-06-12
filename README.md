@@ -73,7 +73,7 @@ $ npm start
 
 ### My personal list to fix and/or change some stuff
 
-- [ ] Clean code comments
+- [x] Clean code comments
 - [ ] Make button to change UI Language to English
 - [ ] Fix mobile CSS on small screens
 - [ ] Change default search to show all collection points
