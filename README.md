@@ -68,6 +68,7 @@ $ npm start
 - [NodeJs](https://nodejs.org/en/) - Server Environment
 - [Express](https://expressjs.com/) - Server Framework
 - [Vanilla Javascript](http://vanilla-js.com/) - Web "Framework"
+- [VS Code](https://code.visualstudio.com/) - Amazing text editor
 
 ## ✅ To dos <a name = "todo"></a>
 
@@ -83,6 +84,6 @@ $ npm start
 - [@vitordutra](https://github.com/vitordutra) - Made the repo and fixed bugs!
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
+
 - [@maykbrito](https://github.com/maykbrito) - For the wonderful project and teaching practice
 - [@lukemorales](https://github.com/lukemorales/) - For the inspiring READMEs!
-
