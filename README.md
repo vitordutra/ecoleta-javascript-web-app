@@ -35,7 +35,7 @@
 
 The Full MVC system was developed between June 1st and 8nd 2020 as an Project Based Approach to teach HTML, CSS, Front-end JavaScript and [NodeJS](https://nodejs.org/en/) (with [Express Framework](https://expressjs.com/) and [Nunjucks](https://www.npmjs.com/package/nunjucks)) to aspiring web developers.
 
-The Front-end consists of 3 pages:
+The Front-end includes 3 pages:
 
 - Home-page - Startup Presentation
 - Collection Point Register - To insert the collection point into the database for user retrieval
