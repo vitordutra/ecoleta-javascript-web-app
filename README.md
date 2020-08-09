@@ -35,13 +35,13 @@
 
 The Full MVC system was developed between June 1st and 8nd 2020 as an Project Based Approach to teach HTML, CSS, Front-end JavaScript and [NodeJS](https://nodejs.org/en/) (with [Express Framework](https://expressjs.com/) and [Nunjucks](https://www.npmjs.com/package/nunjucks)) to aspiring web developers.
 
-The front-end consists of 3 pages:
+The Front-end consists of 3 pages:
 
 - Home-page - Startup Presentation
 - Collection Point Register - To insert the collection point into the database for user retrieval
 - Collection Point Search - Search By City
 
-The back-end:
+Whereas the back-end:
 
 - Server is made with express and nunjucks template engine
 - Database is sqlite3 for insertion of new collect points.
@@ -74,14 +74,13 @@ $ npm start
 
 ### My personal list to fix and/or change some stuff
 
-- [x] Clean code comments
 - [ ] Make button to change UI Language to English
 - [ ] Fix mobile CSS on small screens
 - [ ] Change default search to show all collection points
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
-- [@maykbrito](https://github.com/maykbrito) - For the wonderful project and teaching practice
+- [@maykbrito](https://github.com/maykbrito) - For the wonderful project and teaching prowess
 - [@lukemorales](https://github.com/lukemorales/) - For the inspiring READMEs!
 
 ---
