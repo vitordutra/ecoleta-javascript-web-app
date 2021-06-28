@@ -50,10 +50,10 @@ Whereas the back-end:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/vitordutra/ecoleta-nlw-starter.git
+$ git clone https://github.com/vitordutra/ecoleta-javascript-web-app.git
 
 # Go into the repository
-$ cd ecoleta-nlw-starter
+$ cd ecoleta-javascript-web-app
 
 # Install dependencies
 $ npm install
